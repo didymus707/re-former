@@ -1,0 +1,19 @@
+<%= form_for @user, url: {action: 'edit'} do |f| %>
+  <div>
+    <%= f.label :username, "Username" %> 
+    <%= f.text_field :username, placeholder: 'Johndoe707' %> 
+  </div>
+  <div>
+    <%= f.label :email %> 
+    <%= f.email_field :email, placeholder: "email@example.com" %> 
+  </div>
+  <div>
+    <%= f.label :password %> 
+    <%= f.password_field :password, placeholder: '********' %> 
+  </div>
+  <div>  
+    <%= f.label :password_confirmation %> 
+    <%= f.password_field :password_confirmation, placeholder: '********' %> 
+  </div>
+  <%= f.submit %>
+<% end %>
