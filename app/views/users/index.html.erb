@@ -1,0 +1,14 @@
+<div style="display: grid; margin: auto; width: 70%;">
+  <h1 style="margin-bottom: 50px">All Users</h1>
+  <div style="display: grid;">
+    <ul style="display: grid; grid-template-columns: 35% 35% 15% 15%; grid-template-rows: 28px 28px; list-style: none;">
+      <% @users.each do |user| %>
+        <li><%= user.username %></li>
+        <li><%= user.email %></li>
+        <li><%= link_to 'Show', user_path(user) %></li>
+        <li><%= link_to 'Edit', edit_user_path(user) %></li>
+      <% end %>
+    </ul>
+    <%= link_to 'New User', new_user_path %>
+  </div>
+</div>
