@@ -24,6 +24,11 @@ created to access the forms created and perform actions such as edit and update 
 - Twitter: [@Didy707](https://twitter.com/didy707)
 - Linkedin: [linkedin](https://linkedin.com/adewale-thomas-orotayo)
 
+## Acknowledgements
+- [Microverse](https://www.microverse.org)
+- [TOP](https://www.theodinproject.com/courses/ruby-on-rails/lessons/forms)
+
+
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
